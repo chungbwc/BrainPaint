@@ -1,0 +1,31 @@
+<install>
+	<name>ofxMSAFluid</name>
+	<version>0.01</version>
+	<author>christian nagelhofer, theo watson</author>
+	<url></url>
+		
+	<add>
+		
+		<!-- 	=====================================================================	-->
+		<!--	========================== add per project using this addon =========	-->
+		<!-- 	=====================================================================	-->
+
+		<src>
+			<folder name="addons/ofxMSAFluid/src">
+				<file>../../../addons/ofxMSAFluid/src/MSAFluid.h</file>
+				<file>../../../addons/ofxMSAFluid/src/MSAFluidDrawerBase.cpp</file>
+				<file>../../../addons/ofxMSAFluid/src/MSAFluidDrawerBase.h</file>
+				<file>../../../addons/ofxMSAFluid/src/MSAFluidDrawerGl-Cinder.h</file>
+				<file>../../../addons/ofxMSAFluid/src/MSAFluidDrawerGl-OF.h</file>
+				<file>../../../addons/ofxMSAFluid/src/MSAFluidParticleUpdater.h</file>
+				<file>../../../addons/ofxMSAFluid/src/MSAFluidSolver.h</file>
+				<file>../../../addons/ofxMSAFluid/src/MSAFluidSolver.cpp</file>
+			</folder>
+		</src>
+
+		<include>
+			<path>../../../addons/ofxMSAFluid/src</path>
+		</include>	
+	</add>
+	
+</install>

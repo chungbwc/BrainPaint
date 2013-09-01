@@ -1,0 +1,30 @@
+<install>
+	<name>ofxMSACore</name>
+	<version>0.01</version>
+	<author>christian nagelhofer, theo watson</author>
+	<url></url>
+		
+	<add>
+		
+		<!-- 	=====================================================================	-->
+		<!--	========================== add per project using this addon =========	-->
+		<!-- 	=====================================================================	-->
+
+		<src>
+			<folder name="addons/ofxMSACore/src">
+				<file>../../../addons/ofxMSAFluid/src/MSACore.h</file>
+				<file>../../../addons/ofxMSAFluid/src/MSACore-Cinder.h</file>
+				<file>../../../addons/ofxMSAFluid/src/MSACoreCommon.h</file>
+				<file>../../../addons/ofxMSAFluid/src/MSACoreGL.cpp</file>
+				<file>../../../addons/ofxMSAFluid/src/MSACoreGL.h</file>
+				<file>../../../addons/ofxMSAFluid/src/MSACoreMath.h</file>
+				<file>../../../addons/ofxMSAFluid/src/MSACore-OF.h</file>
+			</folder>
+		</src>
+
+		<include>
+			<path>../../../addons/ofxMSACore/src</path>
+		</include>	
+	</add>
+	
+</install>
